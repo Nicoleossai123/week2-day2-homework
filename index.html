@@ -2,152 +2,75 @@
 <html lang="en">
   <head>
     <title>Great Cliffs of California</title>
-
-    <!-- Meta Tags -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Bootstrap 4 CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css">
-
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    >
-    <!-- Custom CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    
   </head>
   <body id="home">
     <div id="container">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="Great Cliffs Logo" width="100" height="100">
+
+      <header>
+        <nav class="navbar navbar-expand-lg main-header p-0">
+          <a class="navbar-brand p-0" href="index.html">
+            <img src="images/logo.png" alt="Great Cliffs Logo" class="logo-img" />
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler mr-2" type="button" data-toggle="collapse"
+            data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cliffs.html">Cliffs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="activities.html">Activities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto main-menu">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
+              <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
+      <main class="container-fluid">
+        <div class="row main-content-row">
+          <div class="col-12 col-sm-6 main-col-content">
             <h1>Introducing California's Greatest Cliffs</h1>
+            <h2>What is so unique about California cliffs?</h2>
+            <p>California cliffs are one of a kind in the United States where no cliffs are as manificent and beautiful as them. And California is the only state that have cliffs that fronts all possible environments: sea, river, mountains and canyons. There are four such individual unique cliffs: West Cliff, North Cliff, East Cliff and South Cliff. All offer fantastic overlooking views, recreational areas, camping sites, wildlife watch spots and overnight cabins.</p>
+          </div>
+          <div class="col-12 col-sm-6 main-col-content">
+            <h2>Where are these cliffs?</h2>
+            <p>Located within a 100 mile radius from Irvine, California, they can be reached by roads easily. The closest cliff to Irvine is West Cliff, which is the most popular and most visited.</p>
           </div>
         </div>
-        
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="content-box">
-              <h2>What is so unique about California cliffs?</h2>
-              <p>
-                California cliffs are one of a kind in the United States where
-                no cliffs are as manificent and beautiful as them. And
-                California is the only state that have cliffs that fronts all
-                possible environments: sea, river, mountains and canyons. There
-                are four such individual unique cliffs: West Cliff, North Cliff,
-                East Cliff and South Cliff. All offer fantastic overlooking
-                views, recreational areas, camping sites, wildlife watch spots
-                and overnight cabins.
-              </p>
-            </div>
-          </div>
+      </main>
 
-          <div class="col-lg-6">
-            <div class="content-box">
-              <h2>Where are these cliffs?</h2>
-              <p>
-                Located within a 100 mile radius from Irvine, California, they
-                can be reached by roads easily. The closest cliff to Irvine is
-                West Cliff, which is the most popular and most visited.
-              </p>
-            </div>
+      <section>
+        <ul id="partners" class="list-unstyled row mx-auto py-4 px-3">
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-bustour.png" alt="Partner Bus Tours" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-collegetours.png" alt="Partner College Tours" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group" /></li>
+        </ul>
+      </section>
+
+      <footer>
+        <div id="nondisclaimer" class="row align-items-center py-3 px-4">
+          <div class="copy col-12 col-md-6 text-center text-md-left">&copy; Copyright 2021 :: GreatCliffs.com</div>
+          <div class="social col-12 col-md-6 text-center text-md-right">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
           </div>
         </div>
-      </div>
-    </main>
-    
-    <section class="partners-section">
-      <div class="container">
-        <div class="row">
-          <ul id="partners" class="partners-list w-100">
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-bustour.png" alt="Partner Bus Tours">
-            </li>
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental">
-            </li>
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure">
-            </li>
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-collegetours.png" alt="Partner College Tours">
-            </li>
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals">
-            </li>
-            <li class="partner col-6 col-sm-6 col-md-4 col-lg-2">
-              <img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <div id="disclaimer"><p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p></div>
+      </footer>
 
-    <footer>
-      <!-- Nondisclaimer -->
-      <div id="nondisclaimer">
-        <div class="copy">&copy; Copyright 2021 :: GreatCliffs.com</div>
-        <div class="social">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-twitter"></a>
-        </div>
-      </div>
-      <!-- End Nondisclaimer -->
-
-      <!-- Disclaimer -->
-      <div id="disclaimer">
-        <p>
-          This website is designed and created solely for educational purposes
-          only at Westcliff University. All contents are not intended for any
-          commercial gain or use.
-        </p>
-      </div>
-      <!-- End Disclaimer -->
-    </footer>
     </div>
-
-    <!-- Bootstrap 4 jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- Bootstrap 4 Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-
-    <!-- Bootstrap 4 JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.min.js"></script>
   </body>
 </html>

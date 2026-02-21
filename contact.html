@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact - Great Cliffs of California</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ <body id="">
+    <div id="container">
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg main-header p-0">
+          <a class="navbar-brand p-0" href="index.html">
+            <img src="images/logo.png" alt="Great Cliffs Logo" class="logo-img" />
+          </a>
+          <button class="navbar-toggler mr-2" type="button" data-toggle="collapse"
+            data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto main-menu">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
+              <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+              <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main class="container-fluid">
+        <div class="row">
+          <div class="col-12 contact-content">
+            <h1 class="contact-title">Contacting Us</h1>
+            <p class="contact-intro">You can drop by the visitors information center at the cliff site that you plan on visiting. They are open 7 days a week from 8.00AM to 5.00PM. You can also contact us directly if you need additional information about the Cliffs, Hours of Operations, Facilities or questions about this site using one of the following:</p>
+
+            <div class="contactinfo">
+              <div class="phone"><span class="contact-label">Phone:</span><span class="contact-value">(800)GCLIFFS</span></div>
+              <div class="email"><span class="contact-label">Email:</span><span class="contact-value">info@greatcliffs.com</span></div>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <form action="/contact" method="post">
+                <fieldset>
+                  <legend><span class="form-legend-text">CONTACT FORM</span></legend>
+
+                  <div class="form-group">
+                    <label for="contactName">Name:</label>
+                    <input type="text" class="form-control" id="contactName" name="name" placeholder="John Doe" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">Email:</label>
+                    <input type="email" class="form-control" id="contactEmail" name="email" placeholder="johndoe@gmail.com" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contactPhone">Phone:</label>
+                    <input type="text" class="form-control" id="contactPhone" name="phone" placeholder="xxx-xxx-xxxx" />
+                  </div>
+                  <div class="form-group">
+                    <label for="cliffSelect">Which Cliff are you inquiring?</label>
+                    <select class="form-control w-auto" id="cliffSelect" name="cliff">
+                      <option>West Cliff</option>
+                      <option>North Cliff</option>
+                      <option>East Cliff</option>
+                      <option>South Cliff</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>How should we contact you?</label>
+                    <div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="contact" id="contactByEmail" value="email" checked />
+                        <label class="form-check-label" for="contactByEmail">Email</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="contact" id="contactByPhone" value="phone" />
+                        <label class="form-check-label" for="contactByPhone">Phone</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="hearAboutUs">How did you hear about us:</label>
+                    <textarea class="form-control" id="hearAboutUs" name="hearabout" rows="5"></textarea>
+                  </div>
+                  <div class="form-group d-flex align-items-center">
+                    <input type="text" class="form-control captcha-input mr-2" placeholder="Enter characters" />
+                    <div class="captcha-image">YjNkVoEn</div>
+                  </div>
+                  <div class="form-group text-center">
+                    <button type="submit" class="btn btn-send">
+                      <i class="fa fa-paper-plane mr-2"></i> SEND
+                    </button>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <section>
+        <ul id="partners" class="list-unstyled row mx-auto py-4 px-3">
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-bustour.png" alt="Partner Bus Tours" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-collegetours.png" alt="Partner College Tours" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals" /></li>
+          <li class="partner col-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center mb-3"><img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group" /></li>
+        </ul>
+      </section>
+
+      <footer>
+        <div id="nondisclaimer" class="row align-items-center py-3 px-4">
+          <div class="copy col-12 col-md-6 text-center text-md-left">&copy; Copyright 2021 :: GreatCliffs.com</div>
+          <div class="social col-12 col-md-6 text-center text-md-right">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+        <div id="disclaimer"><p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p></div>
+      </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
